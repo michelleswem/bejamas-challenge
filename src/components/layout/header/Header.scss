@@ -1,0 +1,14 @@
+@import "../../../assets/scss/variables";
+.header {
+  position: fixed;
+  top: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  border-bottom: $border;
+  margin-bottom: 3rem;
+  z-index: 40;
+}

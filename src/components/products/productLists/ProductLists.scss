@@ -1,0 +1,25 @@
+@import "../../../assets/scss/variables";
+
+.product-box {
+  flex: 1;
+}
+
+.product-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 4rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.emptysate {
+  font-size: 3rem;
+}
+
+.error {
+  font-size: 3rem;
+  color: $color-error;
+}

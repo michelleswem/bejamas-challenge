@@ -1,0 +1,43 @@
+@import "../../assets/scss/variables";
+.cart {
+  background-color: $color-white;
+  width: 40%;
+  position: absolute;
+  top: 18.2%;
+  right: 0;
+  z-index: 30;
+  border: $border;
+  padding: 2rem;
+
+  &__action-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+  }
+
+  &__close-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__btn {
+    cursor: pointer;
+    background-color: $color-white;
+    border: none;
+    border: 3px solid $color-black;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  &__empty {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}

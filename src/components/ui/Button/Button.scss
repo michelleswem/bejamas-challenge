@@ -1,0 +1,13 @@
+@import "../../../assets/scss/variables";
+
+.btn {
+  color: $color-white;
+  background-color: $color-black;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  border: none;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 500;
+}

@@ -1,0 +1,23 @@
+@import '../../../assets/scss/variables';
+.cart-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 1rem;
+
+  &__badge {
+    position: absolute;
+    bottom: -1.8rem;
+    right: -1.5rem;
+    background-color: $color-black;
+    color: $color-white;
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    padding: 0.2rem 1rem;
+  }
+}

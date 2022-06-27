@@ -1,0 +1,30 @@
+@import "../../../assets/scss/variables";
+
+.single-cart-item {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid $color-gery-3;
+  padding-bottom: 3rem;
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__price {
+    color: $color-gey-2;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__imgbox {
+    img {
+      width: 15rem;
+    }
+  }
+}
